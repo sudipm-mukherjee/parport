@@ -174,7 +174,7 @@ setup_crosstool()
 		opt_cross=
 	fi
 #	export PATH=$PATH:$HOME/gcc-*/${gcc_arch}/bin
-	echo $PATH
+#	echo $PATH
 
 }
 
