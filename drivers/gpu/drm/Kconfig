@@ -283,6 +283,13 @@ source "drivers/gpu/drm/pl111/Kconfig"
 
 source "drivers/gpu/drm/tve200/Kconfig"
 
+
+config DRM_SMI
+	tristate "SM750 and SM768 DRM driver"
+	depends on DRM
+	help
+	  Choose this option to select the SM750 and SM768 DRM driver.
+
 # Keep legacy drivers last
 
 menuconfig DRM_LEGACY
